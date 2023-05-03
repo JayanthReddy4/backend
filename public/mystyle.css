@@ -1,0 +1,95 @@
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+    .fa:hover {
+    opacity: 0.5;
+}
+
+    .fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.nav-link {
+  color: black;
+  display: flex;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+header {
+  font-size: 1.5em;
+}
+nav {
+  background-color: rgb(70, 61, 61);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+}
+
+body  {
+  width: 1250px;
+  height: 300px;
+  background-image: url("portfolio.jpg");
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+   .inline-block {
+      display: inline-block;
+   }
+  
+li {
+  margin-left: 20px;
+  }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.nav-link.active {
+  background-color: #f8f8f8;
+}
+
+section {
+  padding: 50px;
+  margin: 20px 0px;
+  background-color: rgb(167, 216, 249);
+  border: 1px solid #ccc; 
+}
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+section.active {
+  border: 1px solid blue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
